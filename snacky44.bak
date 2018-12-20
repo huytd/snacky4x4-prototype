@@ -1,0 +1,172 @@
+EESchema Schematic File Version 4
+LIBS:snacky44-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keyboard_parts:KEYSW K1
+U 1 1 5C1AB93C
+P 6450 3200
+F 0 "K1" H 6450 3433 60  0000 C CNN
+F 1 "KEYSW" H 6450 3100 60  0001 C CNN
+F 2 "Socket:CHERRY_PLATE_100H" H 6450 3200 60  0000 C CNN
+F 3 "" H 6450 3200 60  0000 C CNN
+	1    6450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D1
+U 1 1 5C1ABB92
+P 6150 3550
+F 0 "D1" H 6278 3500 60  0000 L CNN
+F 1 "D" V 6300 3500 60  0001 C CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 6150 3550 60  0000 C CNN
+F 3 "" H 6150 3550 60  0000 C CNN
+	1    6150 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3200 6150 3500
+Wire Wire Line
+	6150 3700 6150 3950
+$Comp
+L keyboard_parts:Teensy2.0++ U1
+U 1 1 5C1ABCF3
+P 2650 3650
+F 0 "U1" H 2650 5297 60  0000 C CNN
+F 1 "Teensy2.0++" H 2650 5191 60  0000 C CNN
+F 2 "Package_DIP:Teensy30_31_32_LC" H 2650 3700 60  0000 C CNN
+F 3 "" H 2650 3700 60  0000 C CNN
+	1    2650 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K4
+U 1 1 5C1AC055
+P 8400 3250
+F 0 "K4" H 8400 3483 60  0000 C CNN
+F 1 "KEYSW" H 8400 3150 60  0001 C CNN
+F 2 "Socket:CHERRY_PLATE_100H" H 8400 3250 60  0000 C CNN
+F 3 "" H 8400 3250 60  0000 C CNN
+	1    8400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D4
+U 1 1 5C1AC05C
+P 8100 3600
+F 0 "D4" H 8228 3550 60  0000 L CNN
+F 1 "D" V 8250 3550 60  0001 C CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 8100 3600 60  0000 C CNN
+F 3 "" H 8100 3600 60  0000 C CNN
+	1    8100 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 3250 8100 3550
+$Comp
+L keyboard_parts:KEYSW K2
+U 1 1 5C1AC110
+P 6450 4750
+F 0 "K2" H 6450 4983 60  0000 C CNN
+F 1 "KEYSW" H 6450 4650 60  0001 C CNN
+F 2 "Socket:CHERRY_PLATE_100H" H 6450 4750 60  0000 C CNN
+F 3 "" H 6450 4750 60  0000 C CNN
+	1    6450 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D2
+U 1 1 5C1AC117
+P 6150 5100
+F 0 "D2" H 6278 5050 60  0000 L CNN
+F 1 "D" V 6300 5050 60  0001 C CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 6150 5100 60  0000 C CNN
+F 3 "" H 6150 5100 60  0000 C CNN
+	1    6150 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 4750 6150 5050
+$Comp
+L keyboard_parts:KEYSW K3
+U 1 1 5C1AC1F4
+P 8350 4800
+F 0 "K3" H 8350 5033 60  0000 C CNN
+F 1 "KEYSW" H 8350 4700 60  0001 C CNN
+F 2 "Socket:CHERRY_PLATE_100H" H 8350 4800 60  0000 C CNN
+F 3 "" H 8350 4800 60  0000 C CNN
+	1    8350 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D3
+U 1 1 5C1AC1FB
+P 8050 5150
+F 0 "D3" H 8178 5100 60  0000 L CNN
+F 1 "D" V 8200 5100 60  0001 C CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 8050 5150 60  0000 C CNN
+F 3 "" H 8050 5150 60  0000 C CNN
+	1    8050 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 4800 8050 5100
+Wire Wire Line
+	6750 3200 6750 4750
+Wire Wire Line
+	8700 4800 8650 4800
+Wire Wire Line
+	8700 3250 8700 4800
+Wire Wire Line
+	6150 3950 8100 3950
+Wire Wire Line
+	8100 3750 8100 3950
+Wire Wire Line
+	8050 5300 8050 5550
+Wire Wire Line
+	8050 5550 6150 5550
+Wire Wire Line
+	6150 5250 6150 5550
+Wire Wire Line
+	6150 5550 4300 5550
+Connection ~ 6150 5550
+Wire Wire Line
+	6150 3950 4450 3950
+Connection ~ 6150 3950
+Wire Wire Line
+	6750 3200 6750 2900
+Wire Wire Line
+	6750 2900 4850 2900
+Wire Wire Line
+	4850 2900 4850 3300
+Connection ~ 6750 3200
+Wire Wire Line
+	8700 3250 8700 2650
+Wire Wire Line
+	8700 2650 4700 2650
+Wire Wire Line
+	4700 2650 4700 3200
+Connection ~ 8700 3250
+Wire Wire Line
+	3350 3200 3350 3150
+Wire Wire Line
+	3350 3200 4700 3200
+Wire Wire Line
+	3350 3300 3350 3250
+Wire Wire Line
+	3350 3500 3350 3450
+Wire Wire Line
+	3350 3300 4850 3300
+$EndSCHEMATC
