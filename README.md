@@ -2,4 +2,4 @@
 
 Snacky 4x4 keyboard PCB
 
-https://thefullsnack.com/tags/keyboard-building.htmll
+https://thefullsnack.com/tags/keyboard-building.html
